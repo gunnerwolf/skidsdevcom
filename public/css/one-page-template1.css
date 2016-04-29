@@ -1,0 +1,237 @@
+body {
+  font-family: "PTSansRegular",Calibri;
+}
+i.chevron::before {
+  content: ">";
+  display: inline-block;
+}
+
+#topbar {
+  width: 100%;
+  height: 55px;
+  background: #373737 none repeat scroll 0% 0%;
+  border-bottom: 5px solid #282828;
+  color: #C1C1C1;
+  float: left;
+}
+#topbar-content {
+  width: 1024px;
+  margin: 0 auto;
+}
+#topbar p {
+  margin: 15px 0 0;
+  float: left;
+}
+#topbar #user {
+  float: right;
+}
+#topbar #user span {
+  background: #252525 none repeat scroll 0% 0%;
+  width: 54px;
+  height: 54px;
+  float: right;
+}
+#topbar #user span img {
+  margin: 10px 0 0 11px;
+  width: 32px;
+  height: 32px;
+  float: left;
+}
+#topbar #user p {
+  font-size: 14px;
+  margin: 15px 15px 0 0;
+  color: #00AFFA;
+  float: right;
+}
+
+#banner {
+  width: 100%;
+  background: transparent url("../img/bannerbg.png") repeat scroll 0% 0%;
+  float: left;
+}
+#banner-content {
+  height: 120px;
+  width: 1024px;
+  margin: 0 auto;
+}
+#logo {
+  background: transparent url("../img/logo.png") no-repeat scroll left top;
+  font-size: 10px;
+  width: 255px;
+  height: 98px;
+  text-indent: -10000px;
+  margin: 10px 0 0;
+  float: left;
+  border-radius: 12px;
+}
+#ip {
+  margin: 35px 40px 0;
+  padding: 10px 16px;
+  border-radius: 8px;
+  float: right;
+  color: #FFF;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 0px 1px 0px #003C83;
+  background-color: #006FB6;
+}
+
+#nav {
+  width: 100%;
+  background: transparent url("../img/navbg.png") repeat scroll 0% 0%;
+  color: #5ea500;
+  border-bottom: 4px solid #004d94;
+  float: left;
+}
+nav {
+  width: 1024px;
+  height: 60px;
+  margin: 0 auto;
+}
+nav ul {
+  list-style: none;
+  margin: 15px 0 0;
+  height: 30px;
+  padding: 0;
+  position: absolute;
+}
+nav ul li {
+  float: left;
+  position: relative;
+}
+nav ul li.selected a {
+  background: transparent url("../img/nav_selected.png") no-repeat scroll center bottom;
+  height: 42px;
+  float: left;
+}
+nav ul li.splitter {
+  margin: 0 20px;
+  border-left: 1px solid #005EA5;
+  border-right: 1px solid #00AFFA;
+  padding: 10px 0;
+  width: 2px;
+  height: 30px;
+  float: left;
+}
+nav ul li a {
+  color: #ffffff;
+  font-size: 18px;
+  margin: 3px 0 0;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 0px 1px 0px #003C83;
+}
+nav ul li a:hover {
+  color: #00AFFA;
+  text-decoration: none;
+}
+
+#main {
+  float: left;
+  width: 100%;
+}
+#articles {
+  width: 1024px;
+  background-color: #EEE;
+  height: 400px;
+  margin: 30px auto;
+}
+#article-content {
+  width: 690px;
+  float: left;
+  background: transparent url("../img/minecraft-cover.jpg") no-repeat scroll 0% 0%;
+}
+#overlay {
+  margin: 300px 0 0;
+  background: transparent url("https://static.hivemc.com/images/75_black.png") repeat scroll 0% 0%;
+  color: #FFF;
+  height: 100px;
+  width: 100%;
+  float: left;
+}
+#overlay h2 {
+  font-size: 28px;
+  width: 450px;
+  margin: 25px 0 0 30px;
+  float: left;
+}
+#overlay a {
+  background: #006FB6 none repeat scroll 0% 0%;
+  width: 105px;
+  padding: 6px 12px;
+  margin: 25px 30px 0 0;
+  line-height: 20px
+  text-align: center;
+  color: #FFF;
+  border-radius: 3px;
+  float: right;
+  text-decoration: none;
+}
+#overlay p {
+  width: 450px;
+  margin: 4px 0 0 30px;
+  float: left;
+}
+
+#article-list {
+  width: 334px;
+  float: right;
+}
+#article-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#article-list i {
+  color: #C9C9C9;
+  margin: 8px 0 0 18px;
+  float: left;
+  font-size: 25px;
+  font-style: normal;
+}
+#article-list li {
+  height: 12.5%;
+}
+#article-list li.selected {
+  background-color: #005EA5;
+}
+#article-list li p {
+  font-size: 18px;
+  color: #404040;
+  margin: 14px 0 0 18px;
+  float: left;
+}
+#article-list li.selected p {
+  color: #EEE;
+}
+#article-list li.selected i {
+  color: #00AFFA;
+}
+
+#threecol-container {
+  width: 1024px;
+  margin: 0 auto;
+}
+#threecol-container .col {
+  width: 324px;
+  float: left;
+}
+#threecol-container .col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#leftcol, #midcol {
+  margin-right: 26px;
+}
+#leftcol h2 {
+  border-bottom: 6px solid #00AFFA;
+}
+#midcol h2 {
+  border-bottom: 6px solid #A1D182;
+}
+#rightcol h2 {
+  border-bottom: 6px solid #DB6852;
+}

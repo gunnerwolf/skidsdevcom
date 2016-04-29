@@ -1,0 +1,39 @@
+body
+{
+	background-image: url("/img/mc-bg.jpg");
+	background-repeat: no-repeat;
+	background-position: 0px 200px;
+	background-color: #070915;
+	background-size: 100% auto;
+}
+
+.header-image
+{
+	width: 100%;
+	color: #CCCCCC;
+}
+.header-image > img
+{
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+}
+.header-image > h2
+{
+	display: block;
+	margin: 0 auto;
+	margin-top: -80px;
+	padding: 10px 0;
+	width: 280px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 10px;
+}
+
+.content
+{
+	text-align: center;
+	margin-top: 830px;
+	color: #EEE;
+	margin-bottom: 50px;
+}

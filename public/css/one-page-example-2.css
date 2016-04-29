@@ -1,0 +1,75 @@
+body
+{
+	background-image: url("http://cdn.akamai.steamstatic.com/steamcommunity/public/images/items/730/ef7cb44d312df5038cba0f69a0901da427900645.jpg");
+	background-repeat: no-repeat;
+	background-position: 0px 200px;
+	background-color: #000000;
+	background-size: 100% auto;
+}
+
+.image-header
+{
+	margin-bottom: 200px;
+}
+
+.portrait
+{
+	display: block;
+	width: 350px;
+	padding: 5px;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	color: #EEEEEE;
+	border-radius: 15px;
+}
+.portrait > img
+{
+	display: block;
+	margin: 15px auto;
+}
+
+.row
+{
+	margin-top: 80px;
+}
+
+.sponsors
+{
+	display: block;
+	margin: 0 auto;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	width: 930px;
+	text-align: center;
+	color: #EEEEEE;
+}
+.sponsors > a
+{
+	display: inline-block;
+	background-repeat: no-repeat;
+	height: 70px;
+	width: 203px;
+	margin: 10px 13px;
+}
+.sponsors > a:hover
+{
+	background-position: 0 100%;
+}
+
+a.zona-logo
+{
+	background-image: url("http://navi-gaming.com/images/zona_logo.png");
+}
+a.esportstore-logo
+{
+	background-image: url("http://navi-gaming.com/images/esportstore_logo.png");
+}
+a.fragstore-logo
+{
+	background-image: url("http://navi-gaming.com/images/fragstore_logo.png");
+}
+a.tgn-logo
+{
+	background-image: url("http://navi-gaming.com/images/TGN_logo_footer.png");
+}
